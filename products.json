@@ -1,0 +1,25 @@
+{
+    "Products": [
+        {
+            "Id": 1,
+            "State": "on_auction",
+            "StartTime": "11 November 2021 13:00",
+            "EndTime": "11 November 2021 14:00",
+            "Price": 56.99
+        },
+        {
+            "Id": 2,
+            "State": "default",
+            "StartTime": "11 November 2021 15:00",
+            "EndTime": "11 November 2021 18:00",
+            "Price": 1000
+        },
+        {
+            "Id": 3,
+            "State": "on_auction",
+            "StartTime": "11 November 2021 12:00",
+            "EndTime": "11 November 2021 19:00",
+            "Price": 45
+        }
+    ]
+}
