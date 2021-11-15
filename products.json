@@ -1,25 +1,55 @@
 {
-    "Products": [
+    "products": [
         {
             "Id": 1,
-            "State": "on_auction",
-            "StartTime": "11 November 2021 13:00",
-            "EndTime": "11 November 2021 14:00",
-            "Price": 56.99
+            "State": 2,
+            "AuctionStartTime": "11 November 2021 13:00",
+            "AuctionEndTime": "11 November 2021 14:00",
+            "Price": 56.99,
+            "Winner": {
+                "id": null,
+                "name": "Mr. B4nana",
+                "username": "0x329feb3ab062d289",
+                "verified": null,
+                "bio": null,
+                "picture": null,
+                "header": null,
+                "address": "0x329feb3ab062d289"
+            }
         },
         {
             "Id": 2,
-            "State": "default",
-            "StartTime": "11 November 2021 15:00",
-            "EndTime": "11 November 2021 18:00",
-            "Price": 1000
+            "State": 1,
+            "AuctionStartTime": "11 November 2021 15:00",
+            "AuctionEndTime": "11 November 2021 18:00",
+            "Price": 1000,
+            "Winner": {
+                "id": null,
+                "name": "Mr. B4nana",
+                "username": "0x329feb3ab062d289",
+                "verified": null,
+                "bio": null,
+                "picture": null,
+                "header": null,
+                "address": "0x329feb3ab062d289"
+            }
         },
         {
             "Id": 3,
-            "State": "on_auction",
-            "StartTime": "11 November 2021 12:00",
-            "EndTime": "11 November 2021 19:00",
-            "Price": 45
+            "State": 0,
+            "AuctionStartTime": "11 November 2021 12:00",
+            "AuctionEndTime": "11 November 2021 19:00",
+            "Price": 45,
+            "Winner": {
+                "id": null,
+                "name": "Mr. B4nana",
+                "username": "0x329feb3ab062d289",
+                "verified": null,
+                "bio": null,
+                "picture": null,
+                "header": null,
+                "address": "0x329feb3ab062d289"
+            }
         }
     ]
 }
